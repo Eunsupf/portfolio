@@ -18,24 +18,11 @@ table {border-spacing: 0;}
 #header .nav li ul.submenu li a {padding: 10px; background: #6092ea;}
 #header .nav li ul.submenu li a:hover {background: #192c4f;}
 
-/* banner */
-#banner {height: 389px; overflow: hidden;}
-#banner img {widows: 100%; display: block;}
-
-/* 좌우 */
-.slidelist {position: relative; width: 3000px; z-index: 50;}
-.slidelist .slideImg {position: relative; width: 1000px; float: left;}
 
 /* contents */
-#contents {margin-top: 15px; margin-bottom: -10px;}
-#contents {height: 128px;}
-#contents img {width: 100%;}
+#contents {float: left; width: 1000px; height: 1010px;}
+#contents img {width: 1000px;}
 
-/* mockup */
-#mockup {margin-top: 20px;}
-.best figure {float: left; width: 32%; margin-right: 2%;}
-.best figure img {width: 100%; margin-top: 15px;}
-.best figure:last-child{margin-right: 0;}
 
 /* footer */
 #footer {padding: 20px 0; background: #000; margin-top: 30px;}
